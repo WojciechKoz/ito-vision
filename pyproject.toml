@@ -1,0 +1,16 @@
+[project]
+name = "ito-vision"
+version = "0.1.0"
+description = "Ito Vision is a research-oriented library for diffusion-based generative models formulated through stochastic differential equations (SDEs)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+    { name = "Wojciech Kozlowski", email = "wojciech.kozlowski@pwr.edu.pl" },
+    { name = "Radoslaw Kuczbanski", email = "rdk31@protonmail.com" },
+]
+dependencies = ["torch==2.8.0", "numpy==2.0.2"]
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
